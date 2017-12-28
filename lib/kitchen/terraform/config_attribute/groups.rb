@@ -71,6 +71,15 @@ require "kitchen/terraform/config_schemas/groups"
 #       - first_control
 #       - third_control
 #
+# ===== fail_fast
+#
+# This key toggles between immediate failure and delayed failure when the group is determined to be noncompliant with
+# the associated InSpec profile.
+#
+# Type:: {http://www.yaml.org/spec/1.2/spec.html#id2803629 Boolean}
+# Required:: False
+# Default:: +true+
+#
 # ==== hostnames
 #
 # This key contains the name of a Terraform output.
